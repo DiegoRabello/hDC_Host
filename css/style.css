@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    background-color: #232a31;
+
+    padding: 10px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo {
+    width: 50px;
+}
+.navbar-itemns {
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+   
+    
+    
+}
+.navbar-itemns li a {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.default-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+.main {
+    
+ display: flex;
+ flex-direction: column;
+    
+}
