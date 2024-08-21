@@ -114,11 +114,10 @@
   width: 100px;
   height: 100px;
   margin-top: -50px;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .preco p {
   color: #ffffff;
@@ -201,4 +200,98 @@ footer {
 }
 .plus header h3 {
   color: #ffff;
+}
+.dominio {
+  background-color: #232a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: auto;
+  padding: 200px;
+}
+.dominio h1 {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.dominio p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 48px;
+}
+.input-box {
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 24px;  
+}
+.btn-buscar {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.contato {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: auto;
+  padding: 200px;
+}
+.input-name {
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 24px;
+}
+.input-email {
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 24px;
+}
+
+.input-message {
+  width: 80%;
+
+  padding: 60px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 24px;
+}
+.contato h3 {
+  color: #000000;
+  font-size: 35px;
+  margin-bottom: 24px;
+}
+.contato p {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.btn-enviar {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: block;
+  margin-top: 24px;
+  max-width: 150px;
+  width: 100%;
+  margin: 0 auto;
+
+
 }
